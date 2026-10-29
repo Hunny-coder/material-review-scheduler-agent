@@ -1,0 +1,87 @@
+{
+  "mode": "live",
+  "model": "qwen3.8-max",
+  "provider": "bailian",
+  "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "enable_thinking": "false",
+  "total": 6,
+  "passed": 6,
+  "cases": [
+    {
+      "scenario": "normal",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "completed": true,
+        "saved": true
+      },
+      "run_status": "completed",
+      "exit_code": 0,
+      "output": "examples/runs/release/acceptance/normal/output.json"
+    },
+    {
+      "scenario": "missing",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "needs_info": true,
+        "no_draft": true
+      },
+      "run_status": "awaiting_user",
+      "exit_code": 2,
+      "output": "examples/runs/release/acceptance/missing/output.json"
+    },
+    {
+      "scenario": "risk",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "blocked": true,
+        "no_draft": true
+      },
+      "run_status": "blocked",
+      "exit_code": 3,
+      "output": "examples/runs/release/acceptance/risk/output.json"
+    },
+    {
+      "scenario": "conflict",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "pending": true,
+        "ineffective": true,
+        "original_preserved": true,
+        "saved": true
+      },
+      "run_status": "awaiting_user",
+      "exit_code": 2,
+      "output": "examples/runs/release/acceptance/conflict/output.json"
+    },
+    {
+      "scenario": "duplicate",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "replayed": true,
+        "exactly_one": true,
+        "same_id": true
+      },
+      "run_status": "awaiting_user",
+      "exit_code": 2,
+      "output": "examples/runs/release/acceptance/duplicate/output.json"
+    },
+    {
+      "scenario": "failure",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "explicit_failure": true,
+        "rollback": true,
+        "exit_code": true
+      },
+      "run_status": "failed",
+      "exit_code": 4,
+      "output": "examples/runs/release/acceptance/failure/output.json"
+    }
+  ]
+}

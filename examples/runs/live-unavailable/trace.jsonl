@@ -1,0 +1,3 @@
+{"sequence": 1, "timestamp": "2026-10-29T17:14:22.797658+08:00", "mode": "live", "event": "run_start", "request_id": "req-normal-001", "max_model_calls": 12, "max_tool_calls": 12, "data_directory": "data"}
+{"sequence": 2, "timestamp": "2026-10-29T17:14:22.802712+08:00", "mode": "live", "event": "model_error", "code": "MODEL_UNAVAILABLE", "summary": "live 需要 MODEL_NAME 和 MODEL_API_KEY；未切换到 Mock"}
+{"sequence": 3, "timestamp": "2026-10-29T17:14:22.802790+08:00", "mode": "live", "event": "run_end", "run_status": "failed", "exit_code": 7}

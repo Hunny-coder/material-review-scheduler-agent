@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-10-29T17:43:48.065462+08:00",
+  "finished_at": "2026-10-29T17:44:00.353846+08:00",
+  "mode": "live",
+  "model": "qwen3.8-max",
+  "versions": {
+    "python": "3.11.15",
+    "sqlite": "3.50.4",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.18",
+    "langchain-openai": "1.7.3",
+    "pydantic": "2.14.1"
+  },
+  "data_fingerprints": {
+    "materials": "ad050ecae5cb8b6683b7625963d97017ee1c043aae56e9500493acb2dd52c87a",
+    "supplements": "403b1ae45bd0653aa6d2fd081dd099ccb52890c998270797de11c1b5f7ae37fd",
+    "rules": "2080dea6b71bc339785c36cb5d5bbf522d241b0413f15b5153bdf7ced7bdf073",
+    "schedules": "f73e57cb0a4930114f089ac86fb7c7da34c20d3f65bb1b5e33302b695dfcd2b1"
+  },
+  "database_initial_draft_count": 0,
+  "database_final_draft_count": 0,
+  "exit_code": 6,
+  "code_commit": "547caa6ae4bee189aef660ddfeb1a3018076ee09",
+  "working_tree_dirty": true,
+  "source_hash": "564a658978c89da1c90f0c2012d7616eb0db9047703c41af3e3c08338649a7ab",
+  "public_evidence_redaction": [
+    "confirmation_token",
+    "workspace_prefix",
+    "hostname"
+  ]
+}

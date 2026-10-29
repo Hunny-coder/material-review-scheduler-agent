@@ -1,0 +1,47 @@
+{
+  "request_id": "req-boundary-001",
+  "mode": "mock",
+  "run_status": "incomplete",
+  "publication_status": "not_published",
+  "items": [
+    {
+      "material_id": "M01",
+      "run_status": "incomplete",
+      "review_status": "pending",
+      "risk_reasons": [],
+      "missing_fields": [],
+      "schedule_status": "unchecked",
+      "schedule_checked_at": null,
+      "original_requirement": {
+        "kind": "exact",
+        "at": "2026-11-01T18:00:00+08:00",
+        "duration_minutes": 30
+      },
+      "approved_requirement": null,
+      "suggested_slot": null,
+      "effective_slot": null,
+      "confirmation_status": "not_required",
+      "pending_items": [],
+      "proposal_version": null,
+      "confirmation_token": null,
+      "draft_status": null,
+      "draft_save": {
+        "status": "not_attempted",
+        "draft_id": null,
+        "replayed": false,
+        "error_code": "INVALID_ACTION"
+      },
+      "rules_version": null,
+      "material_version": null,
+      "schedule_revision": null,
+      "stop_reason": "INVALID_ACTION",
+      "model_calls": 2,
+      "tool_calls": 2,
+      "evidence_trace": "examples/runs/mock-boundary/trace.jsonl"
+    }
+  ],
+  "errors": [],
+  "notices": [],
+  "trace_file": "examples/runs/mock-boundary/trace.jsonl",
+  "exit_code": 6
+}

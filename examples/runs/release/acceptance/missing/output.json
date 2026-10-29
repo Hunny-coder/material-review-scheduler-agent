@@ -1,0 +1,59 @@
+{
+  "request_id": "req-missing-001",
+  "mode": "live",
+  "run_status": "awaiting_user",
+  "publication_status": "not_published",
+  "items": [
+    {
+      "material_id": "M02",
+      "run_status": "awaiting_user",
+      "review_status": "needs_info",
+      "risk_reasons": [
+        {
+          "rule_id": "REQUIRED_FIELD",
+          "severity": "needs_info",
+          "field": "license_id",
+          "reason": "缺少必填字段 license_id"
+        }
+      ],
+      "missing_fields": [
+        "license_id"
+      ],
+      "schedule_status": "unchecked",
+      "schedule_checked_at": null,
+      "original_requirement": {
+        "kind": "exact",
+        "at": "2026-11-01T18:00:00+08:00",
+        "duration_minutes": 30
+      },
+      "approved_requirement": null,
+      "suggested_slot": null,
+      "effective_slot": null,
+      "confirmation_status": "not_required",
+      "pending_items": [
+        "请补充：license_id"
+      ],
+      "proposal_version": null,
+      "confirmation_token": null,
+      "draft_status": null,
+      "draft_save": {
+        "status": "not_attempted",
+        "draft_id": null,
+        "replayed": false,
+        "error_code": null
+      },
+      "rules_version": "2080dea6b71bc339785c36cb5d5bbf522d241b0413f15b5153bdf7ced7bdf073",
+      "material_version": "8dc53e1d4876dbb432b2e9a205fba8eb8a3657db5d34e060f0b9c14a151e9b0c",
+      "schedule_revision": null,
+      "stop_reason": null,
+      "model_calls": 4,
+      "tool_calls": 4,
+      "mutually_exclusive_with": [],
+      "evidence_trace": "examples/runs/release/acceptance/missing/trace.jsonl"
+    }
+  ],
+  "errors": [],
+  "notices": [],
+  "trace_file": "examples/runs/release/acceptance/missing/trace.jsonl",
+  "exit_code": 2
+}

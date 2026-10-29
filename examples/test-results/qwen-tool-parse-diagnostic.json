@@ -1,0 +1,18 @@
+{
+  "parsed_tool_calls": [
+    {
+      "name": "save_draft",
+      "args": {
+        "material_id": "M01",
+        "proposal_version": 1,
+        "expected_draft_version": null,
+        "decision_summary": "保存已登记的精确时段排期草稿，不发布。"
+      },
+      "id": "call_ac1550a9e1fd45b0afa7173c",
+      "type": "tool_call"
+    }
+  ],
+  "invalid_tool_calls": [],
+  "raw_tool_calls": null,
+  "finish_reason": "tool_calls"
+}

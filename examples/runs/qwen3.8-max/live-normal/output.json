@@ -1,0 +1,50 @@
+{
+  "request_id": "req-normal-001",
+  "mode": "live",
+  "run_status": "incomplete",
+  "publication_status": "not_published",
+  "items": [
+    {
+      "material_id": "M01",
+      "run_status": "incomplete",
+      "review_status": "passed",
+      "risk_reasons": [],
+      "missing_fields": [],
+      "schedule_status": "available",
+      "schedule_checked_at": "2026-10-29T17:43:55.958647+08:00",
+      "original_requirement": {
+        "kind": "exact",
+        "at": "2026-11-02T18:00:00+08:00",
+        "duration_minutes": 30
+      },
+      "approved_requirement": null,
+      "suggested_slot": {
+        "start": "2026-11-02T18:00:00+08:00",
+        "end": "2026-11-02T18:30:00+08:00"
+      },
+      "effective_slot": null,
+      "confirmation_status": "not_required",
+      "pending_items": [],
+      "proposal_version": 1,
+      "confirmation_token": null,
+      "draft_status": null,
+      "draft_save": {
+        "status": "not_attempted",
+        "draft_id": null,
+        "replayed": false,
+        "error_code": null
+      },
+      "rules_version": "2080dea6b71bc339785c36cb5d5bbf522d241b0413f15b5153bdf7ced7bdf073",
+      "material_version": "513c768d0aadc74248d87a02fa55b1fd5b082f8789ecc32892a7e61a07c49a34",
+      "schedule_revision": "82b436fce3255b88c315c8704920de9857aada7a39788581576f38b7d57ca0c6",
+      "stop_reason": null,
+      "model_calls": 5,
+      "tool_calls": 4,
+      "evidence_trace": "examples/runs/qwen3.8-max/live-normal/trace.jsonl"
+    }
+  ],
+  "errors": [],
+  "notices": [],
+  "trace_file": "examples/runs/qwen3.8-max/live-normal/trace.jsonl",
+  "exit_code": 6
+}

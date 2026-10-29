@@ -1,0 +1,53 @@
+{
+  "request_id": "req-recover-001",
+  "mode": "mock",
+  "run_status": "completed",
+  "publication_status": "not_published",
+  "items": [
+    {
+      "material_id": "M04",
+      "run_status": "completed",
+      "review_status": "passed",
+      "risk_reasons": [],
+      "missing_fields": [],
+      "schedule_status": "available",
+      "schedule_checked_at": "2026-10-29T17:14:22.014432+08:00",
+      "original_requirement": {
+        "kind": "exact",
+        "at": "2026-11-02T18:00:00+08:00",
+        "duration_minutes": 30
+      },
+      "approved_requirement": null,
+      "suggested_slot": {
+        "end": "2026-11-02T18:30:00+08:00",
+        "start": "2026-11-02T18:00:00+08:00"
+      },
+      "effective_slot": {
+        "end": "2026-11-02T18:30:00+08:00",
+        "start": "2026-11-02T18:00:00+08:00"
+      },
+      "confirmation_status": "not_required",
+      "pending_items": [],
+      "proposal_version": 1,
+      "confirmation_token": null,
+      "draft_status": "confirmed",
+      "draft_save": {
+        "status": "saved",
+        "draft_id": "D-d36878cadcc74c13",
+        "replayed": false,
+        "error_code": null
+      },
+      "rules_version": "2080dea6b71bc339785c36cb5d5bbf522d241b0413f15b5153bdf7ced7bdf073",
+      "material_version": "9ddcaa120e5a57d6355ec0ef63eb61a6a978349fa9581f18c0d1055e90e852c1",
+      "schedule_revision": "82b436fce3255b88c315c8704920de9857aada7a39788581576f38b7d57ca0c6",
+      "stop_reason": null,
+      "model_calls": 7,
+      "tool_calls": 7,
+      "evidence_trace": "examples/runs/mock-recoverable/trace.jsonl"
+    }
+  ],
+  "errors": [],
+  "notices": [],
+  "trace_file": "examples/runs/mock-recoverable/trace.jsonl",
+  "exit_code": 0
+}

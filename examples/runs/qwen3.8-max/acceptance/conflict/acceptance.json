@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": {
+    "not_published": true,
+    "pending": true,
+    "ineffective": true,
+    "original_preserved": true,
+    "saved": true
+  },
+  "local_tool_fault": null
+}

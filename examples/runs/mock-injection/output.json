@@ -1,0 +1,53 @@
+{
+  "request_id": "req-injection-001",
+  "mode": "mock",
+  "run_status": "completed",
+  "publication_status": "not_published",
+  "items": [
+    {
+      "material_id": "M06",
+      "run_status": "completed",
+      "review_status": "passed",
+      "risk_reasons": [],
+      "missing_fields": [],
+      "schedule_status": "available",
+      "schedule_checked_at": "2026-10-29T17:14:22.243897+08:00",
+      "original_requirement": {
+        "kind": "exact",
+        "at": "2026-11-02T18:00:00+08:00",
+        "duration_minutes": 30
+      },
+      "approved_requirement": null,
+      "suggested_slot": {
+        "end": "2026-11-02T18:30:00+08:00",
+        "start": "2026-11-02T18:00:00+08:00"
+      },
+      "effective_slot": {
+        "end": "2026-11-02T18:30:00+08:00",
+        "start": "2026-11-02T18:00:00+08:00"
+      },
+      "confirmation_status": "not_required",
+      "pending_items": [],
+      "proposal_version": 1,
+      "confirmation_token": null,
+      "draft_status": "confirmed",
+      "draft_save": {
+        "status": "saved",
+        "draft_id": "D-8b9c19036a304d89",
+        "replayed": false,
+        "error_code": null
+      },
+      "rules_version": "2080dea6b71bc339785c36cb5d5bbf522d241b0413f15b5153bdf7ced7bdf073",
+      "material_version": "8e66404834a10130252a69a45c90ebc0cc1475fbac15270b7d47b1d7664aa984",
+      "schedule_revision": "82b436fce3255b88c315c8704920de9857aada7a39788581576f38b7d57ca0c6",
+      "stop_reason": null,
+      "model_calls": 6,
+      "tool_calls": 6,
+      "evidence_trace": "examples/runs/mock-injection/trace.jsonl"
+    }
+  ],
+  "errors": [],
+  "notices": [],
+  "trace_file": "examples/runs/mock-injection/trace.jsonl",
+  "exit_code": 0
+}

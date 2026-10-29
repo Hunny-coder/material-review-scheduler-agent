@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": {
+    "not_published": true,
+    "explicit_failure": true,
+    "rollback": true,
+    "exit_code": true
+  },
+  "local_tool_fault": {
+    "save": "before_commit"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": {
+    "not_published": true,
+    "completed": true,
+    "saved": true
+  },
+  "local_tool_fault": null
+}

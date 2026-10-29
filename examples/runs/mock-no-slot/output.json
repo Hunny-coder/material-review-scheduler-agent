@@ -1,0 +1,49 @@
+{
+  "request_id": "req-no-slot-001",
+  "mode": "mock",
+  "run_status": "awaiting_user",
+  "publication_status": "not_published",
+  "items": [
+    {
+      "material_id": "M01",
+      "run_status": "awaiting_user",
+      "review_status": "passed",
+      "risk_reasons": [],
+      "missing_fields": [],
+      "schedule_status": "no_slot",
+      "schedule_checked_at": "2026-10-29T17:14:22.170919+08:00",
+      "original_requirement": {
+        "kind": "exact",
+        "at": "2026-11-01T18:00:00+08:00",
+        "duration_minutes": 30
+      },
+      "approved_requirement": null,
+      "suggested_slot": null,
+      "effective_slot": null,
+      "confirmation_status": "not_required",
+      "pending_items": [
+        "授权范围内无空闲时段，请调整要求或扩大搜索窗口"
+      ],
+      "proposal_version": null,
+      "confirmation_token": null,
+      "draft_status": null,
+      "draft_save": {
+        "status": "not_attempted",
+        "draft_id": null,
+        "replayed": false,
+        "error_code": null
+      },
+      "rules_version": "2080dea6b71bc339785c36cb5d5bbf522d241b0413f15b5153bdf7ced7bdf073",
+      "material_version": "513c768d0aadc74248d87a02fa55b1fd5b082f8789ecc32892a7e61a07c49a34",
+      "schedule_revision": "c1aeaad100e30e12d9aff5c01432f37534ad40c386a7ba9cceb61334922f324f",
+      "stop_reason": null,
+      "model_calls": 5,
+      "tool_calls": 5,
+      "evidence_trace": "examples/runs/mock-no-slot/trace.jsonl"
+    }
+  ],
+  "errors": [],
+  "notices": [],
+  "trace_file": "examples/runs/mock-no-slot/trace.jsonl",
+  "exit_code": 2
+}

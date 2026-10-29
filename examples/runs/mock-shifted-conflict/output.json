@@ -1,0 +1,53 @@
+{
+  "request_id": "req-conflict-001",
+  "mode": "mock",
+  "run_status": "completed",
+  "publication_status": "not_published",
+  "items": [
+    {
+      "material_id": "M01",
+      "run_status": "completed",
+      "review_status": "passed",
+      "risk_reasons": [],
+      "missing_fields": [],
+      "schedule_status": "available",
+      "schedule_checked_at": "2026-10-29T17:14:22.310889+08:00",
+      "original_requirement": {
+        "kind": "exact",
+        "at": "2026-11-01T18:00:00+08:00",
+        "duration_minutes": 30
+      },
+      "approved_requirement": null,
+      "suggested_slot": {
+        "end": "2026-11-01T18:30:00+08:00",
+        "start": "2026-11-01T18:00:00+08:00"
+      },
+      "effective_slot": {
+        "end": "2026-11-01T18:30:00+08:00",
+        "start": "2026-11-01T18:00:00+08:00"
+      },
+      "confirmation_status": "not_required",
+      "pending_items": [],
+      "proposal_version": 2,
+      "confirmation_token": null,
+      "draft_status": "confirmed",
+      "draft_save": {
+        "status": "saved",
+        "draft_id": "D-4c85db3f5cb24e4e",
+        "replayed": false,
+        "error_code": null
+      },
+      "rules_version": "2080dea6b71bc339785c36cb5d5bbf522d241b0413f15b5153bdf7ced7bdf073",
+      "material_version": "513c768d0aadc74248d87a02fa55b1fd5b082f8789ecc32892a7e61a07c49a34",
+      "schedule_revision": "f645680322e9bb0c852444475c9c5c6578e313b5e8dd4e956378110908a86f2b",
+      "stop_reason": null,
+      "model_calls": 6,
+      "tool_calls": 6,
+      "evidence_trace": "examples/runs/mock-shifted-conflict/trace.jsonl"
+    }
+  ],
+  "errors": [],
+  "notices": [],
+  "trace_file": "examples/runs/mock-shifted-conflict/trace.jsonl",
+  "exit_code": 0
+}

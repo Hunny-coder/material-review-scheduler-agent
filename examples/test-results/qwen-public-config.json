@@ -1,0 +1,9 @@
+{
+  "MODEL_PROVIDER": "openai",
+  "MODEL_NAME": "qwen3.8-max",
+  "MODEL_BASE_URL": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "MODEL_ENABLE_THINKING": "false",
+  "AGENT_MAX_MODEL_CALLS": "12",
+  "AGENT_MAX_TOOL_CALLS": "12",
+  "LANGSMITH_TRACING": "false"
+}

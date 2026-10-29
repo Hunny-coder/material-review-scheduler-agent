@@ -1,0 +1,18 @@
+{
+  "command": [
+    "var/verification-venv/bin/python",
+    "-m",
+    "material_scheduler.cli",
+    "run",
+    "--mode",
+    "live",
+    "--input",
+    "examples/inputs/normal.json",
+    "--db",
+    "var/live-unavailable.sqlite3",
+    "--run-dir",
+    "examples/runs/live-unavailable"
+  ],
+  "exit_code": 7,
+  "configuration": "MODEL_NAME and MODEL_API_KEY explicitly empty; no fallback"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "scenario": "normal",
+    "mode": "live",
+    "run_status": "completed",
+    "exit_code": 0,
+    "run_directory": "examples/runs/release/two-paths/live-normal"
+  },
+  {
+    "scenario": "conflict",
+    "mode": "live",
+    "run_status": "awaiting_user",
+    "exit_code": 2,
+    "run_directory": "examples/runs/release/two-paths/live-conflict"
+  }
+]

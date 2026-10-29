@@ -1,0 +1,55 @@
+{
+  "version": "synthetic-rules-v1",
+  "required_fields": [
+    "title",
+    "summary",
+    "channel",
+    "license_id",
+    "license_status"
+  ],
+  "business_hours": [
+    8,
+    23
+  ],
+  "rules": [
+    {
+      "id": "LICENSE_INVALID",
+      "field": "license_status",
+      "operator": "in",
+      "values": [
+        "expired",
+        "revoked"
+      ],
+      "severity": "blocked",
+      "reason": "合成授权状态为过期或撤回，禁止排期"
+    },
+    {
+      "id": "LICENSE_PENDING",
+      "field": "license_status",
+      "operator": "in",
+      "values": [
+        "pending_review"
+      ],
+      "severity": "needs_review",
+      "reason": "合成授权需人工核验"
+    },
+    {
+      "id": "SYNTHETIC_BANNED_TERM",
+      "field": "summary",
+      "operator": "contains",
+      "values": [
+        "演示禁用词"
+      ],
+      "severity": "blocked",
+      "reason": "命中演示禁用规则"
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "field": "title",
+      "operator": "max_length",
+      "value": 40,
+      "severity": "warning",
+      "reason": "标题超过建议长度，可继续但需提示"
+    }
+  ]
+}

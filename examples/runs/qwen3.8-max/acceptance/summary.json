@@ -1,0 +1,86 @@
+{
+  "mode": "live",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "enable_thinking": "false",
+  "total": 6,
+  "passed": 6,
+  "cases": [
+    {
+      "scenario": "normal",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "completed": true,
+        "saved": true
+      },
+      "run_status": "completed",
+      "exit_code": 0,
+      "output": "examples/runs/qwen3.8-max/acceptance/normal/output.json"
+    },
+    {
+      "scenario": "missing",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "needs_info": true,
+        "no_draft": true
+      },
+      "run_status": "awaiting_user",
+      "exit_code": 2,
+      "output": "examples/runs/qwen3.8-max/acceptance/missing/output.json"
+    },
+    {
+      "scenario": "risk",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "blocked": true,
+        "no_draft": true
+      },
+      "run_status": "blocked",
+      "exit_code": 3,
+      "output": "examples/runs/qwen3.8-max/acceptance/risk/output.json"
+    },
+    {
+      "scenario": "conflict",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "pending": true,
+        "ineffective": true,
+        "original_preserved": true,
+        "saved": true
+      },
+      "run_status": "awaiting_user",
+      "exit_code": 2,
+      "output": "examples/runs/qwen3.8-max/acceptance/conflict/output.json"
+    },
+    {
+      "scenario": "duplicate",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "replayed": true,
+        "exactly_one": true,
+        "same_id": true
+      },
+      "run_status": "awaiting_user",
+      "exit_code": 2,
+      "output": "examples/runs/qwen3.8-max/acceptance/duplicate/output.json"
+    },
+    {
+      "scenario": "failure",
+      "passed": true,
+      "checks": {
+        "not_published": true,
+        "explicit_failure": true,
+        "rollback": true,
+        "exit_code": true
+      },
+      "run_status": "failed",
+      "exit_code": 4,
+      "output": "examples/runs/qwen3.8-max/acceptance/failure/output.json"
+    }
+  ]
+}

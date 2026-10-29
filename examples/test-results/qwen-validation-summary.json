@@ -1,0 +1,43 @@
+{
+  "model": "qwen3.8-max",
+  "reports": {
+    "qwen-offline-junit.xml": {
+      "tests": 56,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "qwen-live-junit.xml": {
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "acceptance": {
+    "passed": 6,
+    "total": 6
+  },
+  "verified_live_directories": [
+    "examples/runs/qwen3.8-max/retest/live-conflict",
+    "examples/runs/qwen3.8-max/retest/live-normal",
+    "examples/runs/qwen3.8-max/acceptance/conflict",
+    "examples/runs/qwen3.8-max/acceptance/missing",
+    "examples/runs/qwen3.8-max/acceptance/duplicate",
+    "examples/runs/qwen3.8-max/acceptance/failure",
+    "examples/runs/qwen3.8-max/acceptance/normal",
+    "examples/runs/qwen3.8-max/acceptance/risk"
+  ],
+  "source_hash": "6d841c3e679eb6ef84ae46fa6e0aa104c4f30b4afbcdefb4f04a06da691908f9",
+  "versions": {
+    "python": "3.11.15",
+    "sqlite": "3.50.4",
+    "langchain": "1.4.7",
+    "langgraph": "1.2.18",
+    "langchain-openai": "1.7.3",
+    "pydantic": "2.14.1"
+  },
+  "secret_scan": "no key found in tracked files or new evidence",
+  "local_env_permissions": "0600; gitignored",
+  "markdown_links": "passed"
+}

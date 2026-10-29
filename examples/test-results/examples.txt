@@ -1,0 +1,128 @@
+[
+  {
+    "scenario": "normal",
+    "mode": "mock",
+    "run_status": "completed",
+    "exit_code": 0,
+    "run_directory": "examples/runs/mock-normal"
+  },
+  {
+    "scenario": "conflict",
+    "mode": "mock",
+    "run_status": "awaiting_user",
+    "exit_code": 2,
+    "run_directory": "examples/runs/mock-conflict"
+  },
+  {
+    "scenario": "duplicate",
+    "mode": "mock",
+    "run_status": "awaiting_user",
+    "exit_code": 2,
+    "run_directory": "examples/runs/mock-duplicate"
+  },
+  {
+    "scenario": "confirm",
+    "mode": "mock",
+    "run_status": "completed",
+    "exit_code": 0,
+    "run_directory": "examples/runs/mock-confirm"
+  },
+  {
+    "scenario": "missing",
+    "mode": "mock",
+    "run_status": "awaiting_user",
+    "exit_code": 2,
+    "run_directory": "examples/runs/mock-missing"
+  },
+  {
+    "scenario": "risk",
+    "mode": "mock",
+    "run_status": "blocked",
+    "exit_code": 3,
+    "run_directory": "examples/runs/mock-risk"
+  },
+  {
+    "scenario": "recoverable",
+    "mode": "mock",
+    "run_status": "completed",
+    "exit_code": 0,
+    "run_directory": "examples/runs/mock-recoverable"
+  },
+  {
+    "scenario": "manual-review",
+    "mode": "mock",
+    "run_status": "awaiting_user",
+    "exit_code": 2,
+    "run_directory": "examples/runs/mock-manual-review"
+  },
+  {
+    "scenario": "failure",
+    "mode": "mock",
+    "run_status": "failed",
+    "exit_code": 4,
+    "run_directory": "examples/runs/mock-failure"
+  },
+  {
+    "scenario": "budget",
+    "mode": "mock",
+    "run_status": "incomplete",
+    "exit_code": 6,
+    "run_directory": "examples/runs/mock-budget"
+  },
+  {
+    "scenario": "boundary",
+    "mode": "mock",
+    "run_status": "incomplete",
+    "exit_code": 6,
+    "run_directory": "examples/runs/mock-boundary"
+  },
+  {
+    "scenario": "no-slot",
+    "mode": "mock",
+    "run_status": "awaiting_user",
+    "exit_code": 2,
+    "run_directory": "examples/runs/mock-no-slot"
+  },
+  {
+    "scenario": "batch",
+    "mode": "mock",
+    "run_status": "awaiting_user",
+    "exit_code": 2,
+    "run_directory": "examples/runs/mock-batch"
+  },
+  {
+    "scenario": "injection",
+    "mode": "mock",
+    "run_status": "completed",
+    "exit_code": 0,
+    "run_directory": "examples/runs/mock-injection"
+  },
+  {
+    "scenario": "before-shift",
+    "mode": "mock",
+    "run_status": "awaiting_user",
+    "exit_code": 2,
+    "run_directory": "examples/runs/mock-before-shift"
+  },
+  {
+    "scenario": "shifted-conflict",
+    "mode": "mock",
+    "run_status": "completed",
+    "exit_code": 0,
+    "run_directory": "examples/runs/mock-shifted-conflict"
+  },
+  {
+    "scenario": "before-stale",
+    "mode": "mock",
+    "run_status": "awaiting_user",
+    "exit_code": 2,
+    "run_directory": "examples/runs/mock-before-stale"
+  },
+  {
+    "scenario": "stale-confirm",
+    "mode": "mock",
+    "run_status": "awaiting_user",
+    "exit_code": 2,
+    "run_directory": "examples/runs/mock-stale-confirm"
+  }
+]

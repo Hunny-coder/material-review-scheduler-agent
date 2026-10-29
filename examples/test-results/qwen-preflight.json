@@ -1,0 +1,23 @@
+{
+  "provider": "Alibaba Cloud Model Studio",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "purpose": "connectivity-only; not Agent/ReAct evidence",
+  "ok": true,
+  "response_model": "qwen3.8-max",
+  "content": "OK",
+  "usage": {
+    "completion_tokens": 1,
+    "prompt_tokens": 16,
+    "total_tokens": 17,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cache_write_tokens": null,
+      "cached_tokens": 0,
+      "image_tokens": null,
+      "text_tokens": 16
+    }
+  },
+  "elapsed_seconds": 1.62
+}

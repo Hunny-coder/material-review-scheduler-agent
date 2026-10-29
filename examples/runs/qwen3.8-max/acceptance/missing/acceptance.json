@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": {
+    "not_published": true,
+    "needs_info": true,
+    "no_draft": true
+  },
+  "local_tool_fault": null
+}

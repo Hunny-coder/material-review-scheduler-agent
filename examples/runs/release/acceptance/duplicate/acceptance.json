@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": {
+    "not_published": true,
+    "replayed": true,
+    "exactly_one": true,
+    "same_id": true
+  },
+  "local_tool_fault": null
+}

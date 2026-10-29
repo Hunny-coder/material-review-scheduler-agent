@@ -1,0 +1,12 @@
+{
+  "publication_status": "not_published",
+  "draft_count": 1,
+  "pending_has_no_effective_slot": true,
+  "saved_items_have_draft_id": true,
+  "scenario_checks": {
+    "follows_new_data": true,
+    "same_id": true,
+    "exactly_one": true
+  },
+  "scenario_passed": true
+}
