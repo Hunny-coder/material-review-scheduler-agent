@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T22:47:30.865085+08:00",
+  "checked_at": "2026-10-29T23:24:51.062203+08:00",
   "passed": true,
   "checks": {
     "required_documents": true,
@@ -18,22 +18,21 @@
   "source_hash": "b77c23f0a5d96cc1310da18fb53d999f59e2b66b8c1aea69541829a6f86d72e6",
   "submission_files": 298,
   "content_manifest": {
-    "scripts/prepare_public_evidence.py": "798d452758b3833cb832467f8b710865822fcaa0a82173b674d45d0e11076acd",
-    ".env.example": "a946233470b1558fb469b814d67e717d4f96ba2f2917782ee832c920bfbf6bc1",
+    ".env.example": "9d58e91f142fd69938c57ce474f2e641fc4975736313b52217355e0a19921003",
     ".gitignore": "1c3d8227d217e01ca95bb801f19e70271488cf4f6349b5c3cb3332b8b31dbb59",
-    "README.md": "7f1ebfec61fbc9ed1ec94db74d79cc9ca1f03ecef66d6d3d0f13ca67b95ab5d1",
-    "SUBMISSION.md": "d06ecb9d3d8b3708d4746abe2d8a829ebbc196fb54813906e5ecaa1fa2fbd03f",
+    "README.md": "dc5233eb390716098f21094c88a3a0abb0949f6c2181b28e144c034302706637",
+    "SUBMISSION.md": "0830aecbb5997c5e14cfc3c805e92fc0a5bbd64ab9568612d8d1131062b5535d",
     "data/materials.json": "371caf2391f4ade7abd73a29a9c3cc655512f1e4ef29029a9ea92ce91d6a5c77",
     "data/rules.json": "8c2dc4ca56bdac6e41c9ffb07527850ec3dbde63cb2fe046f83e064b5d88bda6",
     "data/schedules.json": "b31d76278c32238927da7ed67d1a9dcad59878f414aaf5c9f67d30e44360c235",
     "data/supplements.json": "995cfc20a1f5fb736d73bb2852b063e88bdc9a38f88f615169e78c84a39a8c39",
     "docs/01-requirements.md": "fc8dbc77de048705c0f3b031c6a5535e5ac55f3ec5551fe4509d49518befd926",
     "docs/02-solution.md": "360d180213c67f1bac2b66886be02cd6127c7c6d224a4cc2d0861aa8b1dcce6e",
-    "docs/03-evaluation.md": "93ed8f4695396a61fa2c551aa581520cd9ce6aa0a394bdb860b3dc0e763a7177",
-    "docs/04-ai-usage.md": "6165591b313e4e57a04a17eb8bcbcd6d4daa4a9c972da92f0e01bf6d4280be3d",
-    "docs/05-retrospective.md": "f4b4a9776ba44103eab6b25cc7218df2f146814632d6cd55745a790d53523c6f",
-    "docs/06-qwen-evaluation.md": "35df9272793a155f9d8f85cbd5ad6d0e7d596cb881c87feab92be9e9c4f4682c",
-    "docs/07-release-audit.md": "eba4b36b7d37422549d65aee095dc962fd9fbedffc3ed0586d4b4572ff1030f8",
+    "docs/03-evaluation.md": "913f27f8215232f99e903db087ad9f3ad6e47bdfbdfd0f7b3438dbdf13ce421d",
+    "docs/04-ai-usage.md": "3e684ea80f087bdfd17179d4784966a8ebe3d599d3a5d29fcdbe908947d331b1",
+    "docs/05-retrospective.md": "74fee41ff7f996481c186d742c49138b3b0ef5ca3364fafc3024a7b0c6c99298",
+    "docs/06-qwen-evaluation.md": "e111f093baef3962eab197335be5bb552033c866fefb7cc9d17e1f0cfd36ffb9",
+    "docs/07-release-audit.md": "1a78f5005a9663eabecc1505a4f55730886c9a5128bad1c28d4bc0c0f3e21eda",
     "examples/README.md": "d0aafb73b824431cdca3ae17bde5385d84cd95b9475ef20de463dca3cbba6b2f",
     "examples/fixtures/boundary.json": "889c935ffb71954489cc74bdf159688643bb33996c6a515dfd264b9fa890b49e",
     "examples/fixtures/budget.json": "1173db750f2a89debd74b7afc14f2aec5d38ac218555a717b0682eb4ace0305e",
@@ -293,9 +292,10 @@
     "pyproject.toml": "5ce50569839ce0e0a3efea183d0c749ba965166a59c1e9331ad9d967d196a38b",
     "requirements.lock.txt": "05a9fbe374414f10adbec21dcd8c0d8ff00c2fa40bf91560f39801700f4e173a",
     "scripts/generate_data.py": "e4e283f6373b7f9b4e3da06eec9e61677f1e010f34f79908375817e40b902bfd",
+    "scripts/prepare_public_evidence.py": "798d452758b3833cb832467f8b710865822fcaa0a82173b674d45d0e11076acd",
     "scripts/run_examples.py": "47eaee228e9fba7645eabf4c6cd4e2ebe3f627fde458c1981b8819eac2dff86c",
     "scripts/run_live_acceptance.py": "9f412e991eb058343e2dd80f59d860330fc65d4b95a9dad15f9f53f1ab6d261b",
-    "scripts/verify_submission.py": "5d0b2c86a5aabc62aac74ebc044d5ff4e8524575059bcb8bcf3261aeb5005c78",
+    "scripts/verify_submission.py": "e1a0df2177448ddb28b2c0d9460d3e2205a0218746bc3f5906060f7ac7719a53",
     "src/material_scheduler/__init__.py": "e2bdb602eeb2a112979bc2eb5bfc21036a07461440cfb83129c598d52e00b9d2",
     "src/material_scheduler/cli.py": "fb95561650ea34863d09254898fcf50d5550602bdc056c5d3b6fbe7f48910157",
     "src/material_scheduler/graph.py": "3b389c763d0bf9f41ae922507fc20e291f4aaf5ba5b5fb0d8bd528a092397d1a",
@@ -314,9 +314,9 @@
     "tests/test_persistence.py": "148929fba8eab2b24cc5c1a4d1977616d8434458c9f7da778321b439ade44233",
     "tests/test_release_audit.py": "f818dcb3968a210147a0e46d7ec86e87e526a8b16cb13e0f38438901973a9205",
     "tests/test_workflows.py": "2c475b300bcb6b78c8ba05ed9cb9ce385878bcb0cc0944a5de61cf7e221caca8",
-    "项目开发文档.md": "507ce8fb5217261687fa9586f613159c590078210f11c0d2c6c6ded0513f84b8"
+    "项目开发文档.md": "a9ba539efef6a56ad4271a43b64859757c09baaffe662f19108688681ef19022"
   },
   "repository_url": "https://github.com/Hunny-coder/material-review-scheduler-agent",
-  "question_id": null,
-  "question_id_note": "暂无，用户已确认"
+  "question_id": 1,
+  "question_id_note": "题号 1"
 }

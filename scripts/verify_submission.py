@@ -54,17 +54,34 @@ def main():
     ]
     checks["required_documents"] = all(Path(name).is_file() for name in required)
     checks["required_directories"] = all(Path(name).is_dir() for name in ["src", "tests", "examples", "data"])
-    paths = [
-        Path(name)
-        for name in subprocess.check_output(
-            ["git", "ls-files", "--cached", "--others", "--exclude-standard", "-z"]
-        )
-        .decode()
-        .split("\0")
-        if name
-    ]
+    forbidden = {
+        ".git",
+        ".venv",
+        ".runtime",
+        ".cache",
+        "var",
+        "dist",
+        "__pycache__",
+        ".pytest_cache",
+        ".ruff_cache",
+    }
+    if Path(".git").exists():
+        paths = [
+            Path(name)
+            for name in subprocess.check_output(
+                ["git", "ls-files", "--cached", "--others", "--exclude-standard", "-z"]
+            )
+            .decode()
+            .split("\0")
+            if name
+        ]
+    else:
+        paths = [
+            path.relative_to(ROOT)
+            for path in ROOT.rglob("*")
+            if path.is_file() and not forbidden.intersection(path.relative_to(ROOT).parts)
+        ]
     paths = [path for path in paths if path.is_file()]
-    forbidden = {".venv", ".runtime", ".cache", "var", "__pycache__", ".pytest_cache", ".ruff_cache"}
     checks["no_runtime_files"] = not any(
         forbidden.intersection(path.parts) or path.name == ".env" or path.suffix in {".pyc", ".sqlite3"}
         for path in paths
@@ -141,8 +158,8 @@ def main():
         "submission_files": len(paths),
         "content_manifest": manifest,
         "repository_url": "https://github.com/Hunny-coder/material-review-scheduler-agent",
-        "question_id": None,
-        "question_id_note": "暂无，用户已确认",
+        "question_id": 1,
+        "question_id_note": "题号 1",
     }
     write_json(args.report, report)
     for name, passed in checks.items():

@@ -2,11 +2,11 @@
 
 | 项目 | 内容 |
 | --- | --- |
-| 题号 | 暂无（用户确认，未提供数字编号） |
+| 题号 | 1 |
 | 题目 | 素材审核与发布排期 Agent |
 | GitHub URL | https://github.com/Hunny-coder/material-review-scheduler-agent |
 | 可见性 | 公开，评审可直接读取，无需私有仓库授权 |
-| 最终 commit SHA | 以交付消息中的完整 SHA 和该仓库 main HEAD 为准 |
+| 最终 commit SHA | GitHub main HEAD；本地压缩包内见 COMMIT_SHA |
 | 运行入口 | README.md，CLI |
 | 验收结论与范围 | docs/07-release-audit.md |
 | 实际用时与未完成项 | docs/05-retrospective.md |
